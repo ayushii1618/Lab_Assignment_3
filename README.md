@@ -1,1 +1,3 @@
-# Lab_Assignment_3
+Remove Parenthesis Area from Strings
+
+This Python program is designed to process a list of strings by removing any text enclosed within parentheses, along with the parentheses themselves and any preceding spaces. Using regular expressions, it efficiently cleans each string to eliminate unwanted parenthetical content while preserving the rest of the text intact. The program handles multiple strings at once and works correctly even if some strings do not contain parentheses. For example, given the input list ["example (.com)", "w3resource", "github (.com)", "stackoverflow (.com)"], the output will be the cleaned strings without the parenthesis areas: example, w3resource, github, and stackoverflow. To use the program, simply run the Python script with a list of such strings, and it will print the sanitized results line by line. This solution provides a straightforward way to remove extraneous parenthetical information from text data.
